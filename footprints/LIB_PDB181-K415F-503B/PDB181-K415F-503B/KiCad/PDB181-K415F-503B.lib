@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PDB181-K415F-503B
+#/522057/1808259/2.50/3/3/Variable Resistor
+DEF PDB181-K415F-503B VR 0 30 Y Y 1 F N
+F0 "VR" 850 300 50 H V L CNN
+F1 "PDB181-K415F-503B" 850 200 50 H V L CNN
+F2 "PDB181K415F503B" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com//PDB181-K415F-503B.pdf" 850 0 50 H I L CNN
+F4 "Potentiometers PANEL CONTROL 17MM-ST-CARBON" 850 -100 50 H I L CNN "Description"
+F5 "16.5" 850 -200 50 H I L CNN "Height"
+F6 "652-PDB181K415F503B" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/PDB181-K415F-503B?qs=fgHA1UgJI8CfxbrAh7xxKw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PDB181-K415F-503B" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 0 -100 200 R 50 50 0 0 P
+X CW 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

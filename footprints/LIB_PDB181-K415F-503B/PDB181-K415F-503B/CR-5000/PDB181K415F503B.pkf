@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PDB181K415F503B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PDB181K415F503B")
+        (spec "default")
+    )
+)
