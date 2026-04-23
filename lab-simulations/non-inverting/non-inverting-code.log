@@ -1,0 +1,15 @@
+LTspice 26.0.1 for Windows
+Circuit: Z:\lwc\workshops\pcg-fourier\lab-simulations\non-inverting\non-inverting-code.cir
+Start Time: Mon Apr 20 19:22:49 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.057 seconds.
+
+Files loaded:
+Z:\lwc\workshops\pcg-fourier\lab-simulations\non-inverting\non-inverting-code.cir
+C:\Users\gmarx\AppData\Local\LTspice\lib\sub\opamp.sub
+

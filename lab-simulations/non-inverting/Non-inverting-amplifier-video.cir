@@ -1,0 +1,12 @@
+Non-inverting amplifier
+v1 vp 0 1v
+Rf out vn 10k
+Rg vn  0  1k
+
+;opamp vn vp out model parameters
+.lib opamp.sub
+XU1 vn vp out opamp aol=100k GBW=10Meg
+
+; analysis
+.tran 0 10m
+.end

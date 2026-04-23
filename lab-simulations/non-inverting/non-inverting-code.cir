@@ -1,0 +1,12 @@
+* Non-inverting
+Vin vp 0 1v ; DC input ; SINE(0,1v,1k)
+R1  vn out 8.7k
+R2  vn 0  1k
+R4  out 0 100k
+
+.lib opamp.sub
+*   vn vp out model parameters
+XU1 vn vp out opamp Aol=100k GBW=10Meg
+
+.tran 0 5ms 0.1us
+.end
